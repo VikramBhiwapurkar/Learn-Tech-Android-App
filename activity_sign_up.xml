@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#89B9E0"
+    tools:context=".SignUpActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Sign-in"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/username_sign"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="10dp"
+                android:padding="16dp"
+                android:hint="Enter Username"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/password_sign"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="10dp"
+                android:padding="16dp"
+                android:hint="Enter Password"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:text="Sign in"
+                android:id="@+id/signin_bt"
+                android:textSize="18sp"
+                android:backgroundTint="#0E0D0D"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin Sign-in"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/admin_sign"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="10dp"
+                android:padding="16dp"
+                android:hint="Enter Admin name"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/admin_password_sign"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="10dp"
+                android:padding="16dp"
+                android:hint="Enter Password"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:text="Sign in"
+                android:id="@+id/admin_signbt"
+                android:textSize="18sp"
+                android:backgroundTint="#0E0D0D"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

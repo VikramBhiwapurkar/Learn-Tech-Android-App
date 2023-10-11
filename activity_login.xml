@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#8BBCE3">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="LOGIN"
+        android:textSize="38sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Continue with Email"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:padding="25dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Enter your name"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/name"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:hint="Fullname"
+            android:drawableLeft="@drawable/baseline_person_outline_24"
+            android:drawablePadding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:text="Enter your Email"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/email"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:hint="Email"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:text="Set a password"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/password"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:hint="Password"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="10dp"/>
+
+        <Button
+            android:layout_width="300sp"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:id="@+id/login_bt"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#000000" />
+
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</ScrollView>

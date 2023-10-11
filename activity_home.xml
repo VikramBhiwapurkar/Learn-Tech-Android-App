@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/home_bg"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
+
+
+    <ImageView
+        android:id="@+id/wiedges_bt"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/menu"
+        android:layout_gravity="fill"
+        android:clickable="true"
+        android:layout_margin="15dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.01"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:id="@+id/username"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.03"
+        android:layout_marginLeft="10dp"/>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:background="@drawable/search_bg"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginTop="25dp">-->
+<!--        -->
+<!--        <SearchView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+
+<!--    </RelativeLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_card"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="5dp"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start learnig\nwith Learn Tech!"
+            android:textSize="26dp"
+            android:textColor="#305F72"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.03" />
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@drawable/card_buttton_bg"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/button_arrow"
+                android:layout_marginLeft="12dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Institute Profile"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="Indian Institute of Information Technology, Nagpur (IIITN) is one of the 20 Indian Institutes of Information Technology established under the Public-Private Partnership Scheme by the Ministry of Education (erstwhile Ministry of Human Resource Development), Government of India. IIITN has been declared as an “Institution of National Importance” under the provisions of the Indian Institute of Information Technology (Public-Private Partnership) Act, 2017. The Institute started functioning during the year 2016-17 and Shifted to its Permanent Campus in Butibori Nagpur under the Department of Higher Education, Ministry of Education, and is supported by the Department of Higher Education, Government of Maharashtra, and Tata Consultancy Services, Mumbai as Industry Partner."/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

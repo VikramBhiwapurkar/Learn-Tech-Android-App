@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhoneLoginActivity">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:layout_marginTop="20sp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/loginphone_img" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:text="Enter your mobile number"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="430dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/phonenum"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:hint=""
+            android:drawablePadding="10dp"/>
+        <requestFocus/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="520dp"
+        android:gravity="center"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/getotp"
+            android:layout_width="250sp"
+            android:layout_height="55sp"
+            android:backgroundTint="#1B2E35"
+            android:text="Get OTP"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminate="true"
+        android:indeterminateTint="#E91E63"
+        android:layout_marginTop="680dp"
+        android:visibility="invisible"
+        android:id="@+id/progressbar" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="590dp"
+    android:gravity="center"
+    android:layout_height="70dp">
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="70sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:autoLink="web"
+        android:text="By clicking, I accept the terms of service and privacy policy"
+        android:textSize="19sp" />
+
+</LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
