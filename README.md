@@ -2,7 +2,6 @@
 An interactive online learning app for college students.
 
 
-![1](https://github.com/VikramBhiwapurkar/Learn-Tech-Android-App/assets/147382435/528dc408-d1e5-4714-8754-7a3736cc27d9)
 ![2](https://github.com/VikramBhiwapurkar/Learn-Tech-Android-App/assets/147382435/bb570c1e-2ab4-454b-9c26-f96d41a04b89)
 ![3](https://github.com/VikramBhiwapurkar/Learn-Tech-Android-App/assets/147382435/0f766fb9-b80a-4cb0-bb16-444cfc82d799)
 ![4](https://github.com/VikramBhiwapurkar/Learn-Tech-Android-App/assets/147382435/fb31723f-b048-4663-81bc-3349b3a89885)
